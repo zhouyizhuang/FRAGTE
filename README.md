@@ -7,10 +7,11 @@ If you use FRAGTE in your publication, please cite:
 # Usage
 1. Fragmenting phase for reference/Query 
 perl Fragmenting.pl [GenomeInfo file] [output]
+
 [GenomeInfo file] has 8 fields, including:
 Assembly_assession\tspecies_taxid\torganism_name\tinfraspecific_name\tassembly_level\tChromosome size\tfile for Chromosome\tfile for Plasmid
 
- Note: file for Chromosome,the file containing sequences in fasta format; file for Plasmid, the file containing sequences in fasta format, if no plasmid, this field is "NA".
+Note: file for Chromosome,the file containing sequences in fasta format; file for Plasmid, the file containing sequences in fasta format,       if no plasmid, this field is "NA".
 
 2. Determining phase
 perl Pairs_byFRAGTE.pl [Ref Fragmenting][Query Fragmenting][output]
